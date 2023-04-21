@@ -34,6 +34,7 @@ requirements:
     - typing-extensions
     - scipy
     - portpicker
+    - wrapt
 
 test:
   imports:
