@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.11
+    - python >=3.8,<3.12
     - hatchling
     - hatch-jupyter-builder
     - pip
   run:
-    - python >=3.8,<3.11
+    - python >=3.8,<3.12
     - numpy
     - pandas
     - umap-learn
