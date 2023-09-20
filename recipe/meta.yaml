@@ -31,9 +31,9 @@ requirements:
     - starlette
     - uvicorn
     - psutil
-    - strawberry-graphql==0.208.2
+    - strawberry-graphql ==0.178.0
     - pyarrow
-    - typing_extensions
+    - typing-extensions
     - scipy
     - wrapt
     - sortedcontainers
