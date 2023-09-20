@@ -36,6 +36,7 @@ requirements:
     - typing-extensions
     - scipy
     - wrapt
+    - portpicker
     - sortedcontainers
     - protobuf >=3.20, <5.0
 
