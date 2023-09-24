@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "0.0.37" %}
+{% set version = "0.0.38" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: 05301441c705ac7150ad9a1b358ed05176bf70492cbde6931a0bdda4378b8697
+  sha256: a8f24ae7f05ac393671f1be9bfd682a789966072b11c94a22334969a5e22b838
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ requirements:
     - starlette
     - uvicorn
     - psutil
-    - strawberry-graphql ==0.205.0
+    - strawberry-graphql ==0.208.2
     - pyarrow
     - typing-extensions
     - scipy
