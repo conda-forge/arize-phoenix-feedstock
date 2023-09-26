@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "0.0.38" %}
+{% set version = "0.0.39" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: a8f24ae7f05ac393671f1be9bfd682a789966072b11c94a22334969a5e22b838
+  sha256: 54b19ef3f5a7d6640b74dcff24aa8759432de03ccfb9b6c35e590630b9c3ff03
 
 build:
   noarch: python
@@ -38,6 +38,7 @@ requirements:
     - wrapt
     - sortedcontainers
     - protobuf >=3.20, <5.0
+    - jinja2
 
 test:
   imports:
