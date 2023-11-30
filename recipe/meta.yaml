@@ -33,7 +33,7 @@ requirements:
     - psutil
     - strawberry-graphql ==0.208.2
     - pyarrow
-    - typing-extensions
+    - typing-extensions >=4.5, <5
     - scipy
     - wrapt
     - sortedcontainers
