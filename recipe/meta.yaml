@@ -41,6 +41,7 @@ requirements:
     - jinja2
     - ddsketch
     - tqdm
+    - requests
 
 test:
   imports:
