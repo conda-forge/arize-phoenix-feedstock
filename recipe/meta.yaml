@@ -42,6 +42,8 @@ requirements:
     - ddsketch
     - tqdm
     - requests
+    - opentelemetry-sdk
+    - opentelemetry-proto
 
 test:
   imports:
