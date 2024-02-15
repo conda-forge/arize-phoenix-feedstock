@@ -45,6 +45,7 @@ requirements:
     - opentelemetry-sdk
     - opentelemetry-proto
     - opentelemetry-exporter-otlp
+    - openinference-semantic-conventions
 
 test:
   imports:
