@@ -145,6 +145,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@anticorrelator](https://github.com/anticorrelator/)
 * [@axiomofjoy](https://github.com/axiomofjoy/)
 * [@fjcasti1](https://github.com/fjcasti1/)
 * [@michaelschiff](https://github.com/michaelschiff/)
