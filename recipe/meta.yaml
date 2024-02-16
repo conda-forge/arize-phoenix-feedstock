@@ -46,6 +46,8 @@ requirements:
     - opentelemetry-proto
     - opentelemetry-exporter-otlp
     - openinference-semantic-conventions
+    - openinference-instrumentation-openai
+    - openinference-instrumentation-langchain
 
 test:
   imports:
