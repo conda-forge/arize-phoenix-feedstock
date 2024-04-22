@@ -42,7 +42,7 @@ requirements:
     - tqdm
     - requests
     - opentelemetry-sdk
-    - opentelemetry-proto
+    - opentelemetry-proto >=1.12.0
     - opentelemetry-exporter-otlp
     - openinference-semantic-conventions >=0.1.5
     - openinference-instrumentation
