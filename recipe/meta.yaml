@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "3.25.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: 05b207bab04304308bc2f01380cf6be7c21e297c902880775c5d0ae4ea10e8e3
+  sha256: 896deb6d831e6e6f2cd0a083f922acebc36c726a4534e7fe5e45ce943bf16e43
 
 build:
   noarch: python
@@ -49,6 +49,13 @@ requirements:
     - openinference-instrumentation-openai >=0.1.3
     - openinference-instrumentation-langchain >=0.1.11
     - openinference-instrumentation-llama-index >=1.1.1
+    - sqlalchemy >=2.0.4, <3
+    - greenlet !=0.4.17
+    - alembic >=1.3.0, <2
+    - aiosqlite
+    - aioitertools
+    - sqlean.py >=3.45.1
+    - cachetools
 
 
 test:
