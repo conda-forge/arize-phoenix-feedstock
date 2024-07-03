@@ -58,7 +58,7 @@ requirements:
     - cachetools
     - httpx
     - python-multipart
-    - arize-phoenix-evals >= 0.13.1
+    - arize-phoenix-evals >=0.13.1
     - pyyaml
 
 
