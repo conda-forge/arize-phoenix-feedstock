@@ -57,6 +57,9 @@ requirements:
     - sqlean.py >=3.45.1
     - cachetools
     - httpx
+    - python-multipart
+    - arize-phoenix-evals >= 0.13.1
+    - pyyaml
 
 
 test:
