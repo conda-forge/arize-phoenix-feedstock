@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "4.5.0" %}
+{% set version = "4.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: 66e51c6d54f478cec8e4aa2e7a39a1623b55bff4143e8378fe0ae87201c33d24
+  sha256: 9460b8906a60084c6b005ff46e239296d8fd7c3832151e6c0b2aa89289a26994
 
 build:
   noarch: python
@@ -24,13 +24,13 @@ requirements:
     - python >=3.8,<3.13
     - scikit-learn
     - numpy
-    - pandas
+    - pandas >=1.0
     - umap-learn
     - hdbscan >=0.8.33
     - starlette
     - uvicorn
     - psutil
-    - strawberry-graphql ==0.208.2
+    - strawberry-graphql ==0.235.0
     - pyarrow
     - typing-extensions >=4.5
     - scipy
@@ -44,11 +44,11 @@ requirements:
     - opentelemetry-sdk
     - opentelemetry-proto >=1.12.0
     - opentelemetry-exporter-otlp
-    - openinference-semantic-conventions >=0.1.5
+    - openinference-semantic-conventions >=0.1.9
     - openinference-instrumentation
-    - openinference-instrumentation-openai >=0.1.3
-    - openinference-instrumentation-langchain >=0.1.11
-    - openinference-instrumentation-llama-index >=1.1.1
+    - openinference-instrumentation-langchain >=0.1.12
+    - openinference-instrumentation-llama-index >=1.2.0
+    - openinference-instrumentation-openai >=0.1.4
     - sqlalchemy >=2.0.4, <3
     - greenlet !=0.4.17
     - alembic >=1.3.0, <2
@@ -56,6 +56,10 @@ requirements:
     - aioitertools
     - sqlean.py >=3.45.1
     - cachetools
+    - httpx
+    - python-multipart
+    - arize-phoenix-evals >=0.13.1
+    - pyyaml
 
 
 test:
