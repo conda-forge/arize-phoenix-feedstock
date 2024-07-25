@@ -30,7 +30,7 @@ requirements:
     - starlette
     - uvicorn
     - psutil
-    - strawberry-graphql ==0.235.0
+    - strawberry-graphql ==0.236.0
     - pyarrow
     - typing-extensions >=4.5
     - scipy
