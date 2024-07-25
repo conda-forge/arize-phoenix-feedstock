@@ -59,7 +59,8 @@ requirements:
     - httpx
     - python-multipart
     - arize-phoenix-evals >=0.13.1
-    - pyyaml
+    - fastapi
+    - pydantic >=1.0,!=2.0.*,<3
 
 
 test:
