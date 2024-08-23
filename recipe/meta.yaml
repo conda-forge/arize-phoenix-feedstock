@@ -61,6 +61,7 @@ requirements:
     - arize-phoenix-evals >=0.13.1
     - fastapi
     - pydantic >=1.0,!=2.0.*,<3
+    - pyjwt
 
 
 test:
