@@ -57,8 +57,7 @@ requirements:
     - starlette
     - strawberry-graphql ==0.236.0
     - tqdm
-    - typing-extensions >=4.5  # [py<312]
-    - typing-extensions >=4.6  # [py>=312]
+    - typing-extensions >=4.6
     - umap-learn
     - uvicorn
     - wrapt
