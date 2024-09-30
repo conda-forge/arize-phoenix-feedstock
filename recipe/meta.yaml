@@ -29,7 +29,7 @@ requirements:
     - arize-phoenix-otel >=0.5.1
     - authlib
     - cachetools
-    - hdbscan >=0.8.33
+    - hdbscan >=0.8.38
     - ddsketch
     - fastapi
     - greenlet !=0.4.17
@@ -37,6 +37,7 @@ requirements:
     - grpcio
     - httpx
     - jinja2
+    - numba >=0.60.0
     - numpy
     - openinference-instrumentation >=0.1.12
     - openinference-semantic-conventions >=0.1.9
