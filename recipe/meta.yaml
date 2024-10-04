@@ -29,9 +29,9 @@ requirements:
     - arize-phoenix-otel >=0.5.1
     - authlib
     - cachetools
-    - hdbscan >=0.8.38
     - ddsketch
     - fastapi
+    - fast_hdbscan >=0.2.0
     - greenlet !=0.4.17
     - grpc-interceptor
     - grpcio
