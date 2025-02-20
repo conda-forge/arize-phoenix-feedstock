@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "7.12.3" %}
+{% set version = "8.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: b33569386a8df3318edaea98fce2bbb7d5fc22556b8c338fc45ce579e329658b
+  sha256: 3593e5be65467cf7ddd5a4f66b45d6c99a3d1733ea1abaeb905b05dbb6a5dad0
 
 build:
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - aioitertools
     - aiosqlite
     - alembic >=1.3.0, <2
+    - arize-phoenix-client
     - arize-phoenix-evals >=0.13.1
     - arize-phoenix-otel >=0.5.1
     - authlib
@@ -49,18 +50,19 @@ requirements:
     - protobuf >=3.20, <5.0
     - psutil
     - pyarrow
-    - pydantic >=1.0,!=2.0.*,<3
+    - pydantic >=2.1.0,<3
     - python-multipart
     - scikit-learn
     - scipy
     - sqlalchemy >=2.0.4, <3
     - sqlean.py >=3.45.1
     - starlette
-    - strawberry-graphql ==0.236.0
+    - strawberry-graphql ==0.253.1
     - tqdm
     - typing-extensions >=4.6
     - umap-learn
     - uvicorn
+    - websockets
     - wrapt
 
 
