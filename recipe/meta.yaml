@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "8.20.0" %}
+{% set version = "8.22.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: 293896074535ba8654a04a9981ce682bb1817a4f72ba6f3954465d882262d65f
+  sha256: abc5965d6eabce6a2b4d5c42243eca436f127f5dbb4fb872cca75c8417d9daf3
 
 build:
   noarch: python
