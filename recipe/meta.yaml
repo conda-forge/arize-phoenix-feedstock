@@ -1,5 +1,5 @@
 {% set name = "arize-phoenix" %}
-{% set version = "11.4.0" %}
+{% set version = "11.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arize_phoenix-{{ version }}.tar.gz
-  sha256: 172fb3d76447ce72d1ec66f90f1600939659114170c84870c9e68f286d0ef263
+  sha256: 8d964202938eae3f80beaec6047511ab1304b749558548f7f64e3ce5601edd2b
 
 build:
   noarch: python
@@ -30,7 +30,6 @@ requirements:
     - arize-phoenix-otel >=0.5.1
     - authlib
     - cachetools
-    - ddsketch
     - email-validator
     - fastapi
     - fast_hdbscan >=0.2.0
@@ -48,23 +47,25 @@ requirements:
     - opentelemetry-sdk
     - opentelemetry-semantic-conventions
     - pandas >=1.0
+    - prometheus_client
     - protobuf >=3.20, <5.0
     - psutil
     - pyarrow
     - pydantic >=2.1.0,<3
+    - python-dateutil
     - python-multipart
     - scikit-learn
     - scipy
     - sqlalchemy >=2.0.4, <3
     - sqlean.py >=3.45.1
     - starlette
-    - strawberry-graphql >=0.262.0
+    - strawberry-graphql >=0.270.1
     - tqdm
     - typing-extensions >=4.6
     - umap-learn
     - uvicorn
     - websockets
-    - wrapt
+    - wrapt >=1.17.2
 
 
 test:
