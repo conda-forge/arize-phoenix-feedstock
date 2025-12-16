@@ -31,13 +31,15 @@ requirements:
     - authlib
     - cachetools
     - email-validator
-    - fastapi
     - fast_hdbscan >=0.2.0
+    - fastapi
     - greenlet !=0.4.17
     - grpc-interceptor
     - grpcio
     - httpx
     - jinja2
+    - jmespath
+    - ldap3
     - numba >=0.60.0
     - numpy
     - openinference-instrumentation >=0.1.12
@@ -46,6 +48,7 @@ requirements:
     - opentelemetry-proto >=1.12.0
     - opentelemetry-sdk
     - opentelemetry-semantic-conventions
+    - orjson
     - pandas >=1.0
     - prometheus_client
     - protobuf >=3.20, <5.0
