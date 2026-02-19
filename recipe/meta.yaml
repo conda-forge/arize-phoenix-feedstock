@@ -37,8 +37,10 @@ requirements:
     - grpc-interceptor
     - grpcio
     - httpx
+    - jsonpath-ng
     - jinja2
     - jmespath
+    - jsonschema
     - ldap3
     - numba >=0.60.0
     - numpy
